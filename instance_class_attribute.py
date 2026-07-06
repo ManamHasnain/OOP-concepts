@@ -1,7 +1,7 @@
 class Employee:
     company="NASA" #these here are class attributes as defined inside class, outside any method
     bonus=1000
-    def __init__(self,name,salary,contract_year,company): #these all here are instance attribure as defined inside the init method with self parameter
+    def __init__(self,name,salary,contract_year,company): #these all here are instance attribure as defined inside the init method using self parameter
         self.name=name
         self.salary=salary
         self.contract_year=contract_year
