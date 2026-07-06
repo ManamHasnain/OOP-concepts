@@ -1,6 +1,7 @@
 class Employee:
     company="HP"
     def get_salary(self): #self is mandatory here as it refers to the object of class being created
+        print(self)
         salary=50000
         return salary
 
